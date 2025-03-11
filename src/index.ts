@@ -73,6 +73,7 @@ export default {
         notificationsController.registerRoutes(app);
         wishlistController.registerRoutes(app);
         //log every request
+
         app.use("*", (c, next) => {
             console.log(`${c.req.method} ${c.req.url}`);
             return next();

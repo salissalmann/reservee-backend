@@ -1,0 +1,1 @@
+ALTER TABLE "notifications" RENAME COLUMN "icon_image" TO "icon_type";

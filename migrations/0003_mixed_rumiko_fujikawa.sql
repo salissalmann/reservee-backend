@@ -1,0 +1,1 @@
+ALTER TABLE "faqs" ADD COLUMN "event_id" integer;

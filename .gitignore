@@ -97,8 +97,9 @@ web_modules/
 .env
 .env.development.local
 .env.test.local
-.env.production.local
+.env.production.localh
 .env.local
+.wrangler.toml
 
 # parcel-bundler cache (https://parceljs.org/)
 
